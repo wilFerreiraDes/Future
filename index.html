@@ -1,45 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future digital agency</title>
-    <!-- CSS only -->
-<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-<script src="https://kit.fontawesome.com/aba4d8aee8.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future digital agency</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href=".gitignore/node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="https://kit.fontawesome.com/aba4d8aee8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/styles/style.css">
 
 </head>
+
 <body>
-    <div class="barraNavegacion">
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/images/future-logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-user-tie"></i> Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-suitcase"></i> Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> Contacto</a>
-                  </li>
-                </ul>
+  <!-- barra de navergacion -->
+  <div class="barraNavegacion">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/future-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-user-tie"></i> Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-suitcase"></i> Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- primer seccion imagen -->
+  <section>
+    <img src="assets/images/future-banner.jpg" alt="" class="banner">
+  </section>
+  <!-- servicios  -->
+  <section class="service">
+    <h1 class="text-center">¿Por qué elegirnos?</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <center><img src="assets/images/flecha.png" alt=""></center>
+            
+            <h5 class="card-title text-center">Incrementa tus ventas</h5>
+            <p class="card-text">Potenciá tus ventas y expandí tu negocio usando la herramientas de comunicación mas
+              usada
+              en todo el mundo, internet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="section">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active  data-bs-interval='4'">
+                    <center><img src="assets/images/laptop2.png" class="d-block w-50" alt="..."></center>
+                  </div>
+                  <div class="carousel-item  data-bs-interval='4'">
+                    <center><img src="assets/images/tablet2.png" class="d-block w-50" alt="..."></center>
+                  </div>
+                  <div class="carousel-item  data-bs-interval='4'">
+                    <center><img src="assets/images/mobile2.png" class="d-block w-40" alt="..."></center>
+                  </div>
+                </div>
               </div>
             </div>
-          </nav>
+            <h5 class="card-title text-center">¡Full Responsive!</h5>
+            <p class="card-text">Tu página se va a poder adaptar a todos los dispositivos, computadora, tablet y celular permitiendo que tus clientes tengan la mayor comodidad a la hora de visitar tu página.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Totalmente sencillo de usar</h5>
+            <p class="card-text">No necesitas ser un experto. Cada uno de nuestros planes esta pensado para que no
+              tengas que
+              que preocuparte, solo relajate y disfutá ver crecer tu negocio.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </section>
+  <section class="whyService">
+    <div class="display">
+      <div class="parteUno">
+        <h5>Alcance global</h5>
+        <p>Poné en contacto a tu marca con todas las personas del mundo. Además todos nuestros planes permiten mayor visibilidad dando el alta en Google Maps. </p>
+      </div>
+      <div class="parteDos">
+        <h5>Confortabilidad</h5>
+        <p>Facilita las consultas de tus clientes y generá confianza a traves de un diseño sencillo, elegante y totalemente personalizado</p>
+      </div>
+      <div class="parteTres">
+        <h5>Metodos de pagos</h5>
+        <p>Aceptá todos los metodos de pago digitales a traves de MercadoPago y/o Ualá. Tambien podes ofrecer servios de mensajeria</p>
+      </div>
+      <div class="parteCuatro">
+        <h5>Conectividad</h5>
+        <p>Conectá tu página web con todas tus redes sociales, Instagram, Facebook, Youtube y WhatsApp</p>
+      </div>
+      <div class="parteCinco">
+        <h5>¡Vos elegis!</h5>
+        <p>Te ofrecemos una amplia variedad de servicios para que vos elijas el que mejor se adapte a las necesidades de tu marca</p>
+      </div>
+      <div class="parteSeis">
+        <button type="button" class="btn btn-secondary btn-lg">¡Ver todos los servicios!</button>
+      </div>
+    <img src="assets/images/future-logo2.png" alt="" class="imgDos">
+
+    </div>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src=".gitignore/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>

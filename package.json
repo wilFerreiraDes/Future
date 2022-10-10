@@ -1,0 +1,22 @@
+{
+  "name": "pagina_future",
+  "version": "1.0.0",
+  "description": "pagina future",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilFerreiraDes/Future.git"
+  },
+  "author": "wilFerreiraDes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilFerreiraDes/Future/issues"
+  },
+  "homepage": "https://github.com/wilFerreiraDes/Future#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

@@ -1,8 +1,13 @@
-$dark: black;
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
-$theme-colors: (
-  "dark": $dark
-);
+$special-color: #ff0188;
+
+h1, h5{
+  color: $special-color;
+}
 
 .barraNavegacion{
     
@@ -10,3 +15,64 @@ $theme-colors: (
         width: 75px;
     }
 }
+
+.banner{
+  width: 100%;
+  height: 80%;
+}
+
+.whyService{
+  padding-top: 20px;
+  height: 100vh;
+  .display{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows:1fr 1fr ;
+    grid-template-areas: 
+    "uno dos logo"
+    "tres cuatro logo"
+    "cinco seis logo";
+    row-gap: 10px;
+    column-gap: 10px;
+  
+    .parteUno{
+      grid-area: uno;
+      padding-left: 5%;
+    }
+    .parteDos{
+      grid-area: dos;
+      padding-left: 5%;
+    }
+    .parteTres{
+      grid-area: tres;
+      padding-left: 5%;
+    }
+    .parteCuatro{
+      grid-area: cuatro;
+      padding-left: 5%;
+    }
+    .parteCinco{
+      grid-area: cinco;
+      padding-left: 5%;
+    }
+    .parteSeis{
+      grid-area: seis;
+      padding-left: 5%;
+    }
+  
+    .imgDos{
+      grid-area: logo;
+      width:95%;
+      padding-left: 10%;
+      margin-left: auto;
+    }
+
+    h5, p{
+      text-align: center;
+    }
+  }
+}
+
+
+

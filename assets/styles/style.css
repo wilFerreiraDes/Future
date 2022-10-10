@@ -1,4 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h5 {
+  color: #ff0188;
+}
+
 .barraNavegacion img {
   width: 75px;
+}
+
+.banner {
+  width: 100%;
+  height: 80%;
+}
+
+.whyService {
+  padding-top: 20px;
+  height: 100vh;
+}
+
+.whyService .display {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 30% 30% 40%;
+      grid-template-columns: 30% 30% 40%;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "uno dos logo" "tres cuatro logo" "cinco seis logo";
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.whyService .display .parteUno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: uno;
+  padding-left: 5%;
+}
+
+.whyService .display .parteDos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: dos;
+  padding-left: 5%;
+}
+
+.whyService .display .parteTres {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: tres;
+  padding-left: 5%;
+}
+
+.whyService .display .parteCuatro {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: cuatro;
+  padding-left: 5%;
+}
+
+.whyService .display .parteCinco {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: cinco;
+  padding-left: 5%;
+}
+
+.whyService .display .parteSeis {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: seis;
+  padding-left: 5%;
+}
+
+.whyService .display .imgDos {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: logo;
+  width: 95%;
+  padding-left: 10%;
+  margin-left: auto;
+}
+
+.whyService .display h5, .whyService .display p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
